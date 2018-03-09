@@ -1,0 +1,110 @@
+body{
+	padding-top: 100px;
+	background-image: url(../imgs/restaurant.png);
+	height: 2000px;
+}
+
+#Nav{
+	padding:0;
+	font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar-brand{
+	padding:15px 10px;
+	font-size: 1.5rem;
+	color: #fff !important;
+	background-color: #4aaaa5;
+}
+
+.nav-item, li, a{
+	color:#777;
+}
+
+footer {
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+}
+
+.img-thumbnail{
+	width: 45%;
+	position: relative;
+	margin-bottom: 2%;
+}
+
+.container{
+	width: 100%;
+	padding-left: 0;
+}
+#Nav{
+	border-bottom: 2px solid #ccc;
+}
+
+h1, #contact{
+	color: #4aaaa5;
+	font-size:28px;
+	margin-bottom: 0px;
+	padding:30px 0px 10px 0px;
+}
+
+/*#left-1{
+	position: absolute;
+	left: %;
+	top: 50%;
+	background-color: #4aaaa5;
+	color: white;
+	width: 41.5%;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#right-1{
+	position: absolute;
+	left: 63%;
+	top: 50%;
+	background-color: #4aaaa5;
+	color: white;
+	width: 41.5%;
+	text-align: center;
+	padding-bottom: 5px;
+}*/
+
+#contact{
+	margin-left: 10%;
+}
+
+.panel panel-default{
+	width:100%;
+}
+
+hr{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#imgLinks{
+	width: 100%;
+	margin-left: 10%;
+	margin-bottom: 30px;
+}
+.form-group{
+	width: 94%;
+	margin-left: 3%;
+}
+
+.btn.btn-primary.btn-lg{
+	margin-left:3%;
+}
+
+
+
+@media screen and (max-width: 768px){
+	#AboutMe{
+		margin-top: 30px;
+	}
+	.img-thumbnail{
+		margin-bottom: 10px;
+	}
+}

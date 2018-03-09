@@ -29,7 +29,7 @@ footer {
 }
 
 .img-thumbnail{
-	width: 45%;
+	width: 100%;
 	position: relative;
 	margin-bottom: 2%;
 }
@@ -51,22 +51,22 @@ h1, #contact{
 
 #left-1{
 	position: absolute;
-	left: 3%;
-	top: 50%;
+	left: auto;
+	top: 58%;
 	background-color: #4aaaa5;
 	color: white;
-	width: 41.5%;
+	width: 100%;
 	text-align: center;
 	padding-bottom: 5px;
 }
 
 #right-1{
 	position: absolute;
-	left: 63%;
-	top: 50%;
+	left: auto;
+	top: 58%;
 	background-color: #4aaaa5;
 	color: white;
-	width: 41.5%;
+	width: 100%;
 	text-align: center;
 	padding-bottom: 5px;
 }
@@ -109,4 +109,9 @@ hr{
 	.img-thumbnail{
 		margin-bottom: 10px;
 	}
-}
+	
+	#left-pic,#right-pic{
+		margin:0 3% !important;
+
+	}
+
